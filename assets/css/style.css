@@ -1,0 +1,49 @@
+
+
+/* HEADER START */
+
+/* NAVBAR START*/
+
+.dropdown{
+    position: relative;
+}
+
+.submenu{
+    visibility: hidden; 
+    opacity: 0;
+    position: absolute;
+    transform: translateY(10px);
+    transition: all 0.2s linear;
+    min-width: max-content;
+    right: -160px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.dropdown:hover .submenu{
+    transform: translateY(0px);
+    visibility: visible;
+    opacity: 1;
+    right: -160px;
+}
+
+/* NAVBAR END */
+
+/* HEADER END */
+
+/* BODY START */
+
+/* HERO SECTION START */
+
+.hero-container, .navbar-container{
+    transition: var(--transition-basic);
+}
+
+.hero-container:hover, .navbar-container:hover{
+    box-shadow: none !important;    
+}
+
+/* HERO SECTION END */
+
+/* BODY END */

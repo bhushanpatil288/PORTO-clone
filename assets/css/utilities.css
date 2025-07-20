@@ -1,0 +1,28 @@
+:root{
+    --transition-basic: all 0.2s linear;
+}
+/* others */
+.hover{
+    cursor: pointer;
+}
+
+.submenu li{
+    transition: var(--transition-basic);
+}
+
+.submenu li:hover{
+    transform: translateX(10px);
+}
+
+/* text */
+
+.text-gray{
+    color: rgb(202, 202, 202);
+}
+
+
+
+/* gapping */
+.m-50{
+    margin-top: 50px;
+}
