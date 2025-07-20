@@ -1,5 +1,19 @@
 @media(max-width: 576px){
-    .hero-container{
+    .no-sm-shadow-radius{
         border-radius: 0 !important;
+        box-shadow: none !important;
+    }
+    header > div{
+        padding: 0px !important;
+    }
+    .hero-section, .services-section, services-section{
+        margin-top: 0px;
+        box-shadow: none !important;
+    }
+}
+
+@media(max-width: 1400px){
+    .service-card{
+        position: static !important;
     }
 }

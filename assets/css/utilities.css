@@ -1,6 +1,15 @@
 :root{
     --transition-basic: all 0.2s linear;
 }
+
+/* background colors */
+.bg-cream-subtle{
+    background-color: #f1f1e6;
+}
+.bg-cream{
+    background-color: #F5F3CD;
+}
+
 /* others */
 .hover{
     cursor: pointer;

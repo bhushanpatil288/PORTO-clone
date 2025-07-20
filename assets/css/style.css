@@ -36,14 +36,27 @@
 
 /* HERO SECTION START */
 
-.hero-container, .navbar-container{
+.no-sm-shadow-radius{
     transition: var(--transition-basic);
 }
 
-.hero-container:hover, .navbar-container:hover{
+.hero-container:hover, .navbar-container:hover, .no-sm-shadow-radius:hover{
     box-shadow: none !important;    
 }
 
 /* HERO SECTION END */
+
+/* SERVICES SECTION START */
+
+.service-card{
+    width: 300px;
+}
+
+.service-card:nth-child(2){
+    left: 280px;
+    top: 200px;
+}
+
+/* SERVICES SECTION END */
 
 /* BODY END */
